@@ -1,0 +1,6 @@
+/vendor/gems
+.bundle
+bin
+/*.gem
+_site
+Gemfile.lock
