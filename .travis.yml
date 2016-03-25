@@ -8,7 +8,11 @@ rvm:
   - 2.2
   - 2.1
   - 2.0
-before_script: bundle update
+before_script:
+  - chmod a+x script/bootstrap
+  - chmod a+x script/cibuild
+  - chmod a+x script/release
+  - bundle update
 script: script/cibuild
 branches:
   only:
