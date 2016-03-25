@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'bemoji'
   s.summary     = 'GitHub-flavored emoji plugin for Bunto'
-  s.version     = '2.0.0'
+  s.version     = '3.0.0'
   s.authors     = ['GitHub, Inc.']
   s.email       = 'support@github.com'
 
